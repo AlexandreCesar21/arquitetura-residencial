@@ -50,14 +50,33 @@ header .titulo div {
 #teste {
     display: grid;
     grid-auto-flow: column;
-    
+}
+
+.container {
+    position: relative;
+    left: 130px;
+    bottom: 60px;
+}
+
+
+.container-img {
+    position: relative;
+    right: 70px;
+    bottom: 60px;
 }
 
 .depoimento {
-    text-align: center;
+    text-align: left;
     justify-content: space-around;
     margin-top: 240px;
 }
+
+
+.depoimento p {
+    font-size: 1.2em;
+    color: rgb(93, 93, 93);
+}
+
 
 .imagem {
     padding-left: 340px;
@@ -69,12 +88,52 @@ header .titulo div {
 
 footer {
     background-color: #303030;
-    height: 638px;
+    height: 638px;  
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-footer div {
+.cc {
+    transform: translateY(50%);
+    position: absolute;
+}
+
+
+.titu-footer {
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+
+.barra {
+    width: 508px;
+    height: 72px;
+    margin: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.barra::placeholder {
+    text-align: left;
+    padding-left: 14px;
+}
+
+.button-form {
+    background-color: #C07212;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.button-form:hover {
     
 }
