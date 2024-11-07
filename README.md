@@ -1,71 +1,57 @@
 # arquitetura-residencial
 
 
-#Estrutura HTML
+Documentação do Projeto - Arquitetura Residencial e Comercial
+Este projeto foi desenvolvido para apresentar a tradição e experiência de uma empresa de arquitetura residencial e comercial. A página é responsiva e possui um design clean, com informações essenciais sobre a empresa e um formulário de contato.
 
-Explicação
-• <!DOCTYPE html>: Declara o documento como HTML5.
-• <html lang="en">: Define o idioma como inglês, útil para motores de busca e leitores de tela.
-• <head>: Contém metadados como charset (codificação de caracteres), viewport (responsividade) e o título da página, além de um link para o arquivo CSS externo (style.css).
+Estrutura do Projeto
+HTML
+O arquivo HTML estrutura a página em três seções principais:
 
-#Cabeçalho da Página
+Cabeçalho (header):
 
-Explicação
-• <header>: Seção principal do cabeçalho da página.
-• <div class="titulo">: Bloco que contém o título principal e o subtítulo da página.
-• <h1> e <h4>: Usados para exibir o título principal ("Tradição em projetos de arquitetura") e o subtítulo.
+Contém o título principal e um subtítulo que descreve o foco da empresa.
+O cabeçalho é estilizado para ter um fundo escuro com texto centralizado.
+Seção de Informações (#colunas):
 
-#Estilo CSS do Cabeçalho
+Mostra informações importantes sobre a empresa, incluindo o número de empreendimentos, anos de experiência, e área total de projetos.
+Cada bloco possui um título numérico e uma descrição.
+Seção de Depoimento (#teste):
 
-Explicação
-• background-color: Define um fundo escuro para o cabeçalho.
-• display: flex e align-items / justify-content: Usados para centralizar o texto verticalmente e alinhá-lo à esquerda.
+Inclui um texto sobre a experiência e a filosofia da empresa, além de uma imagem representativa.
+Organizada em duas colunas: uma com o texto e outra com a imagem.
+Rodapé com Formulário (footer):
 
+Contém um formulário simples de contato para o visitante enviar o nome e e-mail.
+O formulário é integrado com uma API externa para receber as informações enviadas.
+CSS
+O arquivo CSS estiliza o layout e aparência da página, garantindo uma experiência visualmente agradável e intuitiva.
 
+Reset Global (*):
 
-#Seção de Informações (#colunas)
+Remove margens e padding padrão e define a fonte como Arial.
+Cabeçalho (header .titulo):
 
-Explicação
-• <div id="colunas">: Contém três blocos com informações principais sobre o portfólio da empresa.
-• .informacao: Cada bloco contém um número (<h2>) e uma descrição (<p>).
+Fundo escuro, altura fixa e alinhamento centralizado para o conteúdo.
+A flexbox é usada para centralizar o título principal e o subtítulo na página.
+Seção de Informações (#colunas):
 
-#Estilo CSS da Seção de Informações
+A seção usa display: grid para organizar as informações em colunas.
+O texto está centralizado em cada bloco com fonte de 20px.
+Seção de Depoimento (#teste):
 
-Explicação
-• display: grid e grid-auto-flow: column: Organiza os blocos em colunas.
-• font-size e margin-top: Define o tamanho do texto e espaçamento superior.
+Organiza o depoimento e a imagem em duas colunas usando display: grid.
+Aplica espaçamento e ajuste de posição para alinhar os elementos de forma harmoniosa.
+Rodapé e Formulário (footer e .button-form):
 
-
-#Seção de Depoimento (#teste)
-
-Explicação
-• <div id="teste">: Contém dois blocos, um para o depoimento (.container .depoimento) e outro para a imagem (.container-img).
-• <h1> e <p>: Apresentam o título e a descrição do depoimento, com informações sobre a experiência da empresa.
-
-
-#Estilo CSS da Seção de Depoimento
-
-• display: grid e grid-auto-flow: column: Distribui o depoimento e a imagem em colunas.
-• position: relative em .container e .container-img: Posiciona o texto e a imagem.
-
-
-
-#Rodapé com Formulário
-
-Explicação
-• <footer>: Define o rodapé com um formulário para que os visitantes entrem em contato.
-• <form>: Envia os dados inseridos para uma API externa usando o método POST.
-• input e button: Campos para o nome, email, e um botão de envio.
-
-
-
-#Estilo CSS do Rodapé e Formulário
-
-Explicação
-• footer: Define um fundo escuro e centraliza o conteúdo.
-• .button-form: Estiliza o botão com uma cor de fundo, bordas arredondadas, e efeito de sombra.
-• :hover: Aplica uma animação ao botão ao passar o mouse, para uma experiência interativa.
-
+Fundo escuro para o rodapé com formulário centralizado.
+Botão de envio estilizado com bordas arredondadas, cor diferenciada e efeito hover.
+Estrutura do Arquivo
+index.html: Estrutura principal da página.
+style.css: Estilos aplicados à página.
+Como Executar o Projeto
+Abra o arquivo index.html em um navegador.
+A página será exibida com o cabeçalho, informações da empresa, depoimento e formulário de contato.
 
 
 
