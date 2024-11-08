@@ -53,6 +53,11 @@ Como Executar o Projeto
 Abra o arquivo index.html em um navegador.
 A página será exibida com o cabeçalho, informações da empresa, depoimento e formulário de contato.
 
+LINK DA PLANILHA
+https://docs.google.com/spreadsheets/d/10vgQxVJidwvDv21UV75bc2cMaDeRQLfFVqCGK4fuFGg/edit?gid=0#gid=0
+
+LINK DO SITE
+https://arquitetura-residencial-moderno.netlify.app/
 
 
 
